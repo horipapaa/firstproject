@@ -73,7 +73,7 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 1. Klónozd le a repót a gépedre.
 2. Telepítsd a projekt függőségeit a `composer install` parancs futtatásával.
-3. Állítsd be az adatbázist és más konfigurációs beállításokat a `.env` fájlban.
+3. Állítsd be az adatbázist és más konfigurációs beállításokat.
 4. Indítsd el a fejlesztői szerver a `php spark serve` paranccsal.
 5. Nyisd meg a `http://localhost:8080` címet a böngésződben, hogy megtekintsd a projektet.
 
