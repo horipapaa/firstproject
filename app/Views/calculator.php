@@ -29,7 +29,7 @@
         <ul>
             <?php foreach ($previousCalculations as $calculation) : ?>
                 <li>
-                    <?= $calculation['username'] ?> | <?= $calculation['number1'] ?> + <?= $calculation['number2'] ?> = <?= $calculation['result'] ?>
+                    <?= $calculation['username'] ?> : <?= $calculation['number1'] ?> + <?= $calculation['number2'] ?> = <?= $calculation['result'] ?>
                 </li>
             <?php endforeach; ?>
         </ul>

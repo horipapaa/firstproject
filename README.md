@@ -72,8 +72,28 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 ## lokális futtatás
 
 1. Klónozd le a repót a gépedre.
-2. Nyisd meg a projekt gyökérkönyvtárát a kedvenc IDE- vagy szövegszerkesztődben.
-3. Telepítsd a projekt függőségeit a `composer install` parancs futtatásával.
-4. Állítsd be az adatbázist és más konfigurációs beállításokat a `.env` fájlban.
-5. Indítsd el a fejlesztői szerver a `php spark serve` paranccsal.
-6. Látogass el a `http://localhost:8080` címre a böngésződben, hogy megtekintsd a projektet.
+2. Telepítsd a projekt függőségeit a `composer install` parancs futtatásával.
+3. Állítsd be az adatbázist és más konfigurációs beállításokat a `.env` fájlban.
+4. Indítsd el a fejlesztői szerver a `php spark serve` paranccsal.
+5. Nyisd meg a `http://localhost:8080` címet a böngésződben, hogy megtekintsd a projektet.
+
+## leírás
+
+A feladatnak megfelelően elkészítettem a webalkalmazást CodeIgniter segítségével. Korábban még nem volt dolgom ezzel a keretrendszerrel, így egy kis utánajárás után kezdtem bele a fejlesztésbe.
+
+Adatbázis elérés:
+
+- 'hostname' => '127.0.0.1',
+- 'username' => 'root',
+- 'password' => '',
+- 'database' => 'filafox',
+
+- Az űrlap kitöltését követően a 'calculate' gomb megnyomása után egy új oldalra ugrunk, ahol megjelenítődnik az összes rögzített adat az adatbázisból.
+- Previous Calculations blokk alatt az eddig mentett adatokat láthatjuk.
+- Amennyiben használt felhasználónevet írunk be, jelez nekünk 'Username already exists.', hogy ez a felhasználó már foglalt.
+
+Az AJAX hívással próbálkoztam, de sajnos nem akart összeállni. Később utánanézek és megcsinálom.
+
+# Összefoglalás
+
+Összességében a kitűzött feladatot igyekeztem maximálisan megoldani, php tudásom tágult, Git ismeretemet felfrissítettem, majd ezeket a skill-eket szeretném a jövőben tovább fejleszteni, kamatoztatni.
